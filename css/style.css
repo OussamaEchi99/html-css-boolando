@@ -1,0 +1,88 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* COMMON */
+.container{
+    width: 70%;
+    background-color: red;
+    margin: auto;
+    
+    height: 1000px;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.product{
+    width: 32%;
+    display: inline-block;
+}
+
+.image{
+    position: relative;
+    display: inline-block;
+}
+
+.description{
+
+}
+
+.description .discount-euro{
+    text-decoration: line-through;
+}
+
+.description .price{
+    color: green;
+}
+
+.image .discount-percentage{
+    background-color: red;
+}
+.image .sustainability{
+    background-color: green;
+}
+.image .heart{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    z-index: 99;
+}
+
+.discount-percentage, .sustainability{
+    display: inline-block;
+    padding: 4px;
+}
+
+.discount-sustainability{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: white;
+    font-size: 10px;
+    z-index: 99;
+}
+
+.second-image{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.gg:hover .second-image{
+    display: inline;
+    position: absolute;
+    cursor: pointer;
+}
