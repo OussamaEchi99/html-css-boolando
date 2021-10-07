@@ -59,7 +59,7 @@ img{
     font-size: 20px;
     padding: 5px 10px;
     background-color: white;
-    z-index: 99;
+    z-index: 1;
 }
 
 .discount-percentage, .sustainability{
@@ -73,7 +73,7 @@ img{
     bottom: 20px;
     color: white;
     font-size: 10px;
-    z-index: 99;
+    z-index: 1;
 }
 
 .second-image{
@@ -81,7 +81,7 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 1;
 
 }
 
